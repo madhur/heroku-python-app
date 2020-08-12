@@ -6,6 +6,3 @@ app.config["DEBUG"] = True
 @app.route('/', methods=['GET'])
 def main():
     return "<h1>My first Python API"
-
-
-app.run()
